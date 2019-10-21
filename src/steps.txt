@@ -1,4 +1,4 @@
-1- action Types
-2- action creators
+1- action Types: ON CREE UN TYPE D ACTION DANS TYPES.JS ET ON L EXPORTE
+2- action creators: ENSUITE ON VA A ACTION/INDEX.JS POUR DEFINIR UNE ACTION( RETURN UN OBJET)
 3- Reducers
 4- JSX
