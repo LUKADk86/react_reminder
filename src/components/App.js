@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux'
 import { add_Reminder, remove_Reminder, clear_Reminders } from '../actions';
+import moment from 'moment';
 class App extends Component{
     state={
         text: '',
@@ -16,7 +17,8 @@ class App extends Component{
                     return(
                         <li key={reminder.id}>
                                 <div>{reminder.text}</div>
-                                <div>{reminder.date}</div>
+                                {/* using moment js module npm i moment to show delay*/}
+                                <div>{moment(new Date(reminder.date)).fromNow()}</div>
                                 <div>{reminder.time}</div>
                                 <div className='btn btn-danger' onClick={()=>this.props.remove_Reminder(reminder.id)}>X</div>
                         </li>
