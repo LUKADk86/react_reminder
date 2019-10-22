@@ -20,7 +20,7 @@ class App extends Component{
                                 {/* using moment js module npm i moment to show delay*/}
                                 <div>{moment(new Date(reminder.date)).fromNow()}</div>
                                 <div>{reminder.time}</div>
-                                <div className='btn btn-danger' onClick={()=>this.props.remove_Reminder(reminder.id)}>X</div>
+                                <div className='btn btn-danger lex' onClick={()=>this.props.remove_Reminder(reminder.id)}>X</div>
                         </li>
                     )
                 }))}

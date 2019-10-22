@@ -1,4 +1,76 @@
+body{
+    background-color: green;
+    
+}
 .App{
+    background-color: greenyellow;
     width:50%;
     margin: auto;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 20%;
+}
+input{
+    background-color: gainsboro;
+    max-width: 50%;
+    margin: auto;
+    box-shadow: 2px 2px black;
+}
+input:hover{
+    background-color: rgb(231, 69, 69);   
+    box-shadow: 2px 2px black;
+}
+input:focus {
+    color: red;
+    box-shadow: 2px 2px black;
+  }
+.btn{
+    width: 30%;
+    margin: auto;
+    font-style: italic;
+    font-weight: bold;
+    color: yellow;
+    box-shadow: 2px 2px black;
+}
+h1{
+    color: indigo;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px darkblue ;
+}
+label{
+    color: indigo;
+    font-style: italic;
+    font-size: 1.4rem;
+   margin-left: 25%;
+}
+
+ul li:nth-child(even){
+    margin-top: -15%;
+    list-style-type: none;  
+    margin-left: 80%;
+    font-weight: bolder;
+    border: 2px solid black;
+    max-width: 20% ;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 2px 2px black;
+    
+}
+ul li:nth-child(odd){
+    margin-left: -5%;
+    list-style-type: none;  
+    text-align: left;
+    font-weight: bolder;
+    border: 2px solid black;
+    max-width: 20% ;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 2px 2px black;
+}
+.lex{
+    border-radius: 60%;
+   
 }
